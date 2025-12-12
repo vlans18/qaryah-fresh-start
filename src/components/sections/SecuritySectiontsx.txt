@@ -1,0 +1,84 @@
+import React from 'react';
+
+const SecuritySection: React.FC = () => {
+  return (
+    <section id="security" className="py-20 bg-slate-950">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mb-10">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Security &amp; Compliance Perimeter
+          </h2>
+          <p className="text-slate-300 text-lg">
+            Qaryah Digital is designed with a strict security perimeter around all
+            payment, token, and user data flows. Infrastructure, access control,
+            and monitoring are treated as core product features, not add-ons.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/60">
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Infrastructure Security
+            </h3>
+            <p className="text-slate-400 text-sm">
+              Enforced HTTPS (TLS), hardened cloud environment, isolated app and
+              data layers, and regular dependency patching.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/60">
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Access Control
+            </h3>
+            <p className="text-slate-400 text-sm">
+              Role-based access, least-privilege principles, and separate admin
+              consoles for operational staff and partners.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/60">
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Data Protection
+            </h3>
+            <p className="text-slate-400 text-sm">
+              Encryption in transit, segmented storage for sensitive records, and
+              strict logging around token minting and settlement events.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/60">
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Compliance Ready
+            </h3>
+            <p className="text-slate-400 text-sm">
+              Architecture prepared for Shariah review, KYC/AML integration, and
+              future regulatory licensing in key markets.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/60">
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Monitoring &amp; Audit
+            </h3>
+            <p className="text-slate-400 text-sm">
+              Structured event logs for QGT minting, merchant settlements, and
+              vault movements to support external audit trails.
+            </p>
+          </div>
+
+          <div className="p-6 rounded-xl border border-slate-800 bg-slate-900/60">
+            <h3 className="text-lg font-semibold text-white mb-2">
+              Third-Party Integration
+            </h3>
+            <p className="text-slate-400 text-sm">
+              Only vetted gateways and custodians; all integrations pass through
+              well-defined API boundaries inside the security perimeter.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SecuritySection;
